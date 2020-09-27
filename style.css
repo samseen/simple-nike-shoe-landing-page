@@ -80,3 +80,19 @@ header {
     font-weight: 800;
     text-transform: uppercase;
 }
+
+.content .text p {
+    color: #fff;
+}
+
+.content .text a {
+    display: inline-block;
+    padding: 10px 30px;
+    color: #111;
+    background: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-top: 15px;
+}
