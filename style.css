@@ -121,5 +121,30 @@ header {
     header {
        padding: 20px 40px; 
     }
-    
+    section {
+        padding: 40px;
+        overflow-x: hidden;
+    }
+    section:before {
+        font-size: 20vh;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .content {
+        margin-top: 120px;
+    }
+    .sci {
+        margin-top: 80px;
+        position: relative;
+        bottom: 0;
+        right: initial;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        filter: invert(1);
+    }
+    .sci li {
+        margin-right: 15px;
+    }
 }
